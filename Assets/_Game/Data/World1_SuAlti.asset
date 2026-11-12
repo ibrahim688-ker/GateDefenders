@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62296e20f1062d43ac936488f8bf4ce, type: 3}
+  m_Name: World1_SuAlti
+  m_EditorClassIdentifier: Assembly-CSharp::StratejiGame.WorldData
+  displayName: "Su Alt\u0131 Kal\u0131nt\u0131lar\u0131"
+  bossName: "Abisal Yenge\xE7 Kral"
+  theme: 0
+  levels:
+  - {fileID: 11400000, guid: fd1942ef28bab654996105c0eddea1d6, type: 2}
+  - {fileID: 11400000, guid: 90ad356ef75f6c449ae962c031766ca0, type: 2}
+  - {fileID: 11400000, guid: 9d06bbc981a1c1e4d88608f97e160653, type: 2}
+  - {fileID: 11400000, guid: c46523b73c2a68343ae88637abafbd81, type: 2}
+  - {fileID: 11400000, guid: 86ac1a0c1c2ffbf41a422a69da03c912, type: 2}
+  - {fileID: 11400000, guid: 8c2ffe72cf22ffa488464a1859fb6650, type: 2}
+  - {fileID: 11400000, guid: 8ad430674da61484c8520dfba103eb9b, type: 2}
+  - {fileID: 11400000, guid: 72882bc5f50138d4c8de362620b881f2, type: 2}
+  - {fileID: 11400000, guid: e23b9795e5915484fbcbc8ef5025fa39, type: 2}
+  - {fileID: 11400000, guid: c3a3b5d8156d04548972e68f8563c111, type: 2}
+  bossPrefab: {fileID: 5786700199631875612, guid: 64289f3d1b588e34baa1fd98349897db, type: 3}
+  bossModelScale: 3.1
+  enemyModels:
+  - kind: 2
+    prefab: {fileID: 4451791815298949422, guid: faa97f7f324e70b49a02f373ed5a94fc, type: 3}
+    scale: 1.8
+  - kind: 0
+    prefab: {fileID: 3919095802187061101, guid: b70a9485891272743b391357a5a3ffb4, type: 3}
+    scale: 0.85
+  - kind: 1
+    prefab: {fileID: 6045896109553598368, guid: af7b7cd33058ab343814e374292b7b27, type: 3}
+    scale: 1.5

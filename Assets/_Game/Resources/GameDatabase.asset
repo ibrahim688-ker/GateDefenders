@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87aed0d9e020d3e40be32f2193c29612, type: 3}
+  m_Name: GameDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::StratejiGame.GameDatabase
+  worlds:
+  - {fileID: 11400000, guid: 02d4f38092b1c3e47a29bf4ab96945a5, type: 2}
+  - {fileID: 11400000, guid: dc8e828c1fe88d74c8a4bc18ba411f67, type: 2}
+  - {fileID: 11400000, guid: 210d7159276497549a1605e9daec416c, type: 2}
+  - {fileID: 11400000, guid: b4c5ec438c1255e4b8c076939188c201, type: 2}
+  - {fileID: 11400000, guid: 9e49ade088bcd3946a2d1194ed6f24fc, type: 2}
+  - {fileID: 11400000, guid: de3b215a2e16e314bade82be3c8e73fc, type: 2}
+  upgrades: {fileID: 11400000, guid: f96ccbd4e8efd964080608afc597995d, type: 2}
+  characterMaterial: {fileID: 2100000, guid: f87b1f54afbc9d54abc7c95c5efb7740, type: 2}
+  fxMaterial: {fileID: 2100000, guid: 13efefcacd749a84dac8a122f3dffcf0, type: 2}
+  envMaterial: {fileID: 2100000, guid: 3d5fcc15312e6b844bd65a64b8c2a0f2, type: 2}
+  waterMaterial: {fileID: 2100000, guid: a9268ecb53a9f334ea65a53e9d0431e2, type: 2}
+  backdropMaterial: {fileID: 2100000, guid: 7830d057ce03c654f8edc353202f96c0, type: 2}
+  volcanoEnvMaterial: {fileID: 2100000, guid: d3246c16220b8f74fae67f7ff0ca3f64, type: 2}
+  lavaMaterial: {fileID: 2100000, guid: 01546fda0066e28438d55b994423c128, type: 2}
+  volcanoSkyMaterial: {fileID: 2100000, guid: 4dc21a9ff36f8da4b8afa7334983f475, type: 2}
+  swampEnvMaterial: {fileID: 2100000, guid: 31ec1bac5c5c9d741b62b44d94943f50, type: 2}
+  swampGlowMaterial: {fileID: 2100000, guid: d16f078eb7556734bbd9da0378f024cf, type: 2}
+  swampWaterMaterial: {fileID: 2100000, guid: b25a3539ae3334646af2020b1c81184d, type: 2}
+  swampSkyMaterial: {fileID: 2100000, guid: a2189d5345c47ef4aa1b37f1478ac0e5, type: 2}
+  frostEnvMaterial: {fileID: 2100000, guid: cbc571dc4e030294aa48d283a2d4be4a, type: 2}
+  frostWaterMaterial: {fileID: 2100000, guid: 4bfec663b8ca28948b0fa1a480000c93, type: 2}
+  frostSkyMaterial: {fileID: 2100000, guid: cadebf0a835beb7489d4932e45cd8af6, type: 2}
+  skyEnvMaterial: {fileID: 2100000, guid: b8513785da005a84fa0236091702f38a, type: 2}
+  skyWaterMaterial: {fileID: 2100000, guid: 7b8ee48c96b264d41b738499c2da0924, type: 2}
+  skySkyMaterial: {fileID: 2100000, guid: b1662e29465eb6849a759fafeab76425, type: 2}
+  desertEnvMaterial: {fileID: 2100000, guid: cdf5df09713fae44fa3e73301b4b3237, type: 2}
+  desertSandMaterial: {fileID: 2100000, guid: 4132d33b3d9299e4986e4b274376a2e3, type: 2}
+  desertSkyMaterial: {fileID: 2100000, guid: 317fd200ae6e9824ca3829e7e819cbba, type: 2}
+  upcomingWorlds: []

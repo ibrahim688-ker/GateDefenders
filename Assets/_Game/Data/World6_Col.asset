@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62296e20f1062d43ac936488f8bf4ce, type: 3}
+  m_Name: World6_Col
+  m_EditorClassIdentifier: Assembly-CSharp::StratejiGame.WorldData
+  displayName: "\xC7\xF6l S\u0131cakl\u0131\u011F\u0131"
+  bossName: "Kumlar\u0131n Hakimi"
+  theme: 5
+  levels:
+  - {fileID: 11400000, guid: 89f43c1722a441743b657abfacbedfe1, type: 2}
+  - {fileID: 11400000, guid: 00d6c80ab7f161f4f9ea4a9d02cb75b9, type: 2}
+  - {fileID: 11400000, guid: 9cca8cefc2908ef43bffe2eb4036d0e6, type: 2}
+  - {fileID: 11400000, guid: fab21e9060c5d2948b66d6f83bf40ffc, type: 2}
+  - {fileID: 11400000, guid: 1ea8f97fb121023458ae119f0ad40f12, type: 2}
+  - {fileID: 11400000, guid: ae71ab836b6c1114dbd1a4f1683314fa, type: 2}
+  - {fileID: 11400000, guid: dcd66c230ad9e2741a96d409deff688b, type: 2}
+  - {fileID: 11400000, guid: ad8f2db8a7b104f4f8aacfb5a644e8c2, type: 2}
+  - {fileID: 11400000, guid: 4fd13300ed208da47b46a47859f561ad, type: 2}
+  - {fileID: 11400000, guid: a5e11e2bee7ef684489b8cdf871f10db, type: 2}
+  bossPrefab: {fileID: 7479207798522434296, guid: 193df7afd77f87d47bff8195b86a97b8, type: 3}
+  bossModelScale: 4.6
+  enemyModels:
+  - kind: 0
+    prefab: {fileID: 1291967794710195903, guid: 04bc8c65be888a84ca65a8eb4fa8767b, type: 3}
+    scale: 0.8
+  - kind: 1
+    prefab: {fileID: 179166795637031695, guid: 79cac1a82b9259343b2418bef5df2de6, type: 3}
+    scale: 1.5
+  - kind: 2
+    prefab: {fileID: 6425450535481655889, guid: 24eaf0debea8e0f489a4a9ef468d436e, type: 3}
+    scale: 1.9

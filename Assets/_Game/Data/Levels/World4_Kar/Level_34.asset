@@ -1,0 +1,275 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ebc77b20895a14d9858a51c7ce86a2, type: 3}
+  m_Name: Level_34
+  m_EditorClassIdentifier: Assembly-CSharp::StratejiGame.LevelData
+  enemyHpMultiplier: 4.3
+  completionReward: 224
+  waves:
+  - time: 1
+    kind: 0
+    count: 36
+    duration: 3.5
+  - time: 4.9
+    kind: 0
+    count: 36
+    duration: 3.5
+  - time: 5.4
+    kind: 2
+    count: 6
+    duration: 1.5
+  - time: 8.9
+    kind: 0
+    count: 37
+    duration: 3.5
+  - time: 9.9
+    kind: 1
+    count: 7
+    duration: 2
+  - time: 12.9
+    kind: 0
+    count: 37
+    duration: 3.5
+  - time: 13.4
+    kind: 2
+    count: 6
+    duration: 1.5
+  - time: 16.8
+    kind: 0
+    count: 39
+    duration: 3.5
+  - time: 20.8
+    kind: 0
+    count: 39
+    duration: 3.5
+  - time: 21.8
+    kind: 1
+    count: 7
+    duration: 2
+  - time: 21.3
+    kind: 2
+    count: 6
+    duration: 1.5
+  - time: 24.7
+    kind: 0
+    count: 40
+    duration: 3.5
+  - time: 28.7
+    kind: 0
+    count: 40
+    duration: 3.5
+  - time: 29.2
+    kind: 2
+    count: 6
+    duration: 1.5
+  - time: 32.6
+    kind: 0
+    count: 41
+    duration: 3.5
+  - time: 33.6
+    kind: 1
+    count: 7
+    duration: 2
+  - time: 36.6
+    kind: 0
+    count: 41
+    duration: 3.5
+  - time: 37.1
+    kind: 2
+    count: 6
+    duration: 1.5
+  - time: 40.6
+    kind: 0
+    count: 43
+    duration: 3.5
+  - time: 44.5
+    kind: 0
+    count: 43
+    duration: 3.5
+  - time: 45.5
+    kind: 1
+    count: 7
+    duration: 2
+  - time: 45
+    kind: 2
+    count: 6
+    duration: 1.5
+  - time: 48.5
+    kind: 0
+    count: 44
+    duration: 3.5
+  - time: 52.4
+    kind: 0
+    count: 44
+    duration: 3.5
+  - time: 52.9
+    kind: 2
+    count: 6
+    duration: 1.5
+  gateRows:
+  - time: 2
+    first:
+      type: 0
+      value: 9
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 0
+      value: -2
+      shootable: 1
+      maxValue: 5
+  - time: 6
+    first:
+      type: 0
+      value: 4
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 4
+      value: 1
+      shootable: 0
+      maxValue: 5
+  - time: 10
+    first:
+      type: 0
+      value: 1
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 2
+      value: 20
+      shootable: 0
+      maxValue: 5
+  - time: 14
+    first:
+      type: 0
+      value: 10
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 5
+      value: 1
+      shootable: 0
+      maxValue: 5
+  - time: 18
+    first:
+      type: 0
+      value: 10
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 0
+      value: -5
+      shootable: 1
+      maxValue: 5
+  - time: 22
+    first:
+      type: 0
+      value: 1
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 3
+      value: 25
+      shootable: 0
+      maxValue: 5
+  - time: 26
+    first:
+      type: 0
+      value: 10
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 0
+      value: 4
+      shootable: 0
+      maxValue: 5
+  - time: 30
+    first:
+      type: 0
+      value: 5
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 6
+      value: 10
+      shootable: 0
+      maxValue: 5
+  - time: 34
+    first:
+      type: 0
+      value: 3
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 2
+      value: 25
+      shootable: 0
+      maxValue: 5
+  - time: 38
+    first:
+      type: 0
+      value: 3
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 1
+      value: 2
+      shootable: 0
+      maxValue: 5
+  - time: 42
+    first:
+      type: 0
+      value: 10
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 1
+      value: 2
+      shootable: 0
+      maxValue: 5
+  - time: 46
+    first:
+      type: 0
+      value: 3
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 3
+      value: 25
+      shootable: 0
+      maxValue: 5
+  - time: 50
+    first:
+      type: 0
+      value: 10
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 6
+      value: 10
+      shootable: 0
+      maxValue: 5
+  - time: 54
+    first:
+      type: 0
+      value: 15
+      shootable: 0
+      maxValue: 5
+    second:
+      type: 6
+      value: 10
+      shootable: 0
+      maxValue: 5
+  hasBoss: 0
+  bossTime: 56
+  bossHpMultiplier: 2.8000002
